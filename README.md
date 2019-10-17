@@ -73,4 +73,4 @@ References
 ---------
 * [MIT OpenCourseWare - Divide & Conquer: van Emde Boas Trees](https://www.youtube.com/watch?v=hmReJCupbNU)
 * [GeeksForGeeks - Van Emde Boas Tree](https://www.geeksforgeeks.org/van-emde-boas-tree-set-4-deletion/)
-* [Stanfod - van Emde Boas Trees](http://web.stanford.edu/class/archive/cs/cs166/cs166.1146/lectures/14/Small14.pdf)
+* [Stanford - van Emde Boas Trees](http://web.stanford.edu/class/archive/cs/cs166/cs166.1146/lectures/14/Small14.pdf)
