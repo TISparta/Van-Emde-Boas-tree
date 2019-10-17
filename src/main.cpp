@@ -117,7 +117,7 @@ double average (const std::vector <double>& time) {
 void print_markdown_table (std::vector <std::vector <double>> time_vEBTree,
                            std::vector <std::vector <double>> time_set) {
   std::cout << "| Operation | vEB Tree | Set |  " << std::endl;
-  std::cout << "| ----- --- | -------- | --- |  " << std::endl;
+  std::cout << "| --------- | -------- | --- |  " << std::endl;
   add("INSERT", average(time_vEBTree[INSERT]), average(time_set[INSERT]));
   add("LOOKUP", average(time_vEBTree[LOOKUP]), average(time_set[LOOKUP]));
   add("PREDECESSOR", average(time_vEBTree[PREDECESSOR]), average(time_set[PREDECESSOR]));
