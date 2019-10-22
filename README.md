@@ -67,7 +67,7 @@ These result can be summarized in the following graphics:
 
 ![](./graphics/erase.jpg)
 
-As we can see from these graphics, VEB Tree has better performance than the std::set (witch is a Red Black Tree) for all the operations except erase in this scenario. In the operation erase we can se that VEB Tree is better than std::set just when n = 1e6. Moreover the graphics allows us to infer that the difference will just increases as n becomes greater. But for n > 1e6 we may get in trouble with the memory comsumption, so I did not run the script for these values. I we would like to reduce the memory comsumption we could make the optimizations suggested in the MIT's lecture. For example, we could create vEBTree nodes just when necessary using a hash table (unordered_map).
+As we can see from these graphics, VEB Tree has better performance than the std::set (witch is a Red Black Tree) for all the operations except erase in this scenario. In the operation erase we can se that VEB Tree is better than std::set just when n = 1e6. Moreover the graphics allows us to infer that the difference will just increases as n becomes greater. But for n > 1e6 we may get in trouble with the memory comsumption, so I did not run the script for these values. If we would like to reduce the memory comsumption we could make the optimizations suggested in the MIT's lecture. For example, we could create vEBTree nodes just when necessary using a hash table (unordered_map).
 
 References
 ---------
